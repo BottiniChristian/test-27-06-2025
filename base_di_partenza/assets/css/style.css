@@ -1,0 +1,128 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  background-color: #ffc017;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #191919;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  margin: 0 1rem;
+}
+.btn-dark {
+  background-color: #191919;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.hero {
+  background-color: #ffc017;
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+.hero-content p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tom-cooper {
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+}
+.author {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.trending {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+.trending h2 {
+  margin-bottom: 1rem;
+}
+.trending-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.trending-item {
+  display: flex;
+  width: 45%;
+}
+.trending-item .number {
+  font-size: 2rem;
+  color: rgb(191, 190, 190);
+  margin-right: 1rem;
+}
+.articles-and-sidebar {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.articles {
+  width: 65%;
+}
+.sidebar {
+  width: 30%;
+  inline-size: auto;
+}
+.sidebar h4 {
+padding-bottom: 14px;
+}
+.post {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.post img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.post-text {
+  flex: 1;
+  padding-right: 1rem;
+}
+.tags button {
+  margin: 0.25rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+.links {
+  list-style: none;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 1rem;
+  color: rgb(191, 190, 190);
+  inline-size: auto;
+}
+.links li {
+  margin-bottom: 0.5rem;
+  inline-size: auto;
+}
+.links a {
+   inline-size: auto;
+}
